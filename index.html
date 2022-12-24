@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="main">
+        <div class="nav">
+            <h2 class="logo">Header</h2>
+            <div class="navitem">
+                <ul>
+                    <a href="index.html"><li>Signup</li></a>
+                    <a href="pofilepage.html" id="profile"><li>Profile</li></a> 
+                </ul>
+            </div>
+        </div>
+        <div class="container ">
+            
+           <!-- The Sign up part -->
+            <form class="form " id="signup" action="" method="post">
+                <h1 class="form_title">Signup</h1>
+    
+                <div class="form_input_group">
+
+                    <input class="form_input" id="signupUsernameinput" autofocus placeholder="Fullname" type="text" required>
+
+                </div>
+    
+                <div class="form_input_group">
+
+                    <input class="form_input" id="signupUsermailinput" autofocus placeholder="Email" type="email" required>
+
+                </div>
+    
+                <div class="form_input_group">
+
+                    <input class="form_input" id="paswordinput" autofocus placeholder="Password" type="password" required>
+
+                </div>
+                
+                <div class="form_input_group">
+
+                    <input class="form_input" id="passwordconfirminput" autofocus placeholder="Confirm Password" type="password" required>
+
+                </div>
+                <div class="form_message form_massage_error"> Error : All the fields are mandatory</div>
+                
+                <button class="formbutton" type="button" onclick="validate()">Signup</button>
+                     
+            </form>
+                 
+                 
+       </div>
+    </div>
+  
+    
+    <script src="script.js" ></script>
+</body>
+</html>

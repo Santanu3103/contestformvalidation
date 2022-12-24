@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    --color-primary:#1079be;
+    --color-primary-dark:#1c40a3;
+    --color-secondary:#252c6a;
+    --color-error:#cc3333;
+    --color-Sucess:#0fc04a;
+    --border-radius: 20px;
+    height: 100vh;
+    display: flex;
+   
+    background-color: #1E1E1E;
+    justify-content: center;
+    font-size: 18px;
+    background-size: cover;    
+}
+
+.main{
+    height:100vh;
+    width:100vw;
+    display: flex; 
+    flex-direction: column; 
+    background: #000000; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav{
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 95px;
+    border-bottom:  1px solid #fff;
+    
+}
+.navitem ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.navitem li{
+    list-style: none;
+    display: flex;
+   
+}
+.navitem{
+    width: 11%;
+    text-decoration: none;
+}
+.navitem ul{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.container{
+    width: 900px;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    background: #000000;
+    color: #ffffff;
+    position: relative;
+    height: 90vh;
+    margin-left: 87px;
+  
+}
+
+.form_hidden{
+    display: none;
+}
+
+.container,.form_input,.form_button{
+
+ font: 500 rem 'Quicksand', san-serif;
+}
+
+.form_title{
+    margin-bottom: 2rem;
+    text-align: left;
+    
+}
+
+.form_input_group{
+    margin-bottom: 1rem;
+}
+
+.form_input{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border : none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    color:#fff;
+    background: #000000;
+   
+}
+
+.form_input:focus{
+    border: none; 
+    background:  #3f3b3b;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.form_message{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.form_message_sucess{
+    color: var( --color-Sucess);
+}
+
+.form_massage_error{
+    color: var(--color-error);
+}
+
+.formbutton{
+    width: 20%;
+    height: 40px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 5px;   
+    font-weight: bold;
+    font-size: 1rem;
+    color: #1E1E1E;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #fff;
+}
+.formbutton:hover{
+    background-color: var(--color-primary-dark);
+    color: #fff;
+}
+.form_button:active{
+    transform: scale(0.98);
+}
+.form_text{
+    text-align: center;
+}
+.container .profileSummery{
+    align-items: left;
+
+}
+.profileSummery li{
+    margin-top: 30px;
+    padding: unset;
+    font-size: 3rem;
+    font-weight: 100;
+    list-style: none;
+}
+ 
+.formbutton2:hover{
+    background-color: var(--color-primary-dark);
+    color: #fff;
+}
